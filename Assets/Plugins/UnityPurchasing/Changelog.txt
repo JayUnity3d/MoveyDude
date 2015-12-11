@@ -1,0 +1,17 @@
+## [1.0.2] - 2015-11-6
+### Added
+- Demo scene uses new GUI (UnityEngine.UI).
+- Fake IAP confirmation dialog when running in the Editor to allow you to test failed purchases and initialization failures.
+
+## [1.0.1] - 2015-10-21
+### Fixed
+- Google Play: Application IStoreListener methods executing on non scripting thread.
+- Apple Stores: NullReferenceException when a user owns a product that was not requested by the Application during initialization.
+- Tizen, WebGL, Samsung TV: compilation errors when building a project that uses Unity IAP.
+
+## [1.0.0] - 2015-10-01
+### Added
+- Google Play
+- Apple App Store
+- Mac App Store
+- Windows Store (Universal)
